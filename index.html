@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Babu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            /* Yaha background me sundar bhagwan ki picture set ki hai */
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://unsplash.com') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .profile-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            width: 350px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 25px;
+            color: #e0e0e0;
+        }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        /* Alag-alag buttons ke colors */
+        .youtube { background-color: #ff0000; }
+        .facebook { background-color: #1877f2; }
+        .instagram { background-gradient: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: #d6249f; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285aeb 90%); }
+        .whatsapp {background-color: rgb(5, 134, 11);}
+        
+        /* Hover effects */
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255,255,255,0.2);
+            filter: brightness(1.1);
+    
+        }
+    </style>
+    
+</head>
+
+
+<body>
+
+    <div class="profile-card">
+        <h1>Shubham Babu</h1>
+        <p>Welcome to my official profile page</p>
+
+        <div class="links-container">
+            <a href="https://youtube.com/@shubham.vishwakarma.official?si=ez2-44g5N3c-6kKM" target="_blank" class="btn youtube">YouTube</a>
+            <a href="https://www.facebook.com/share/1d3fM4dUDK/" target="_blank" class="btn facebook">Facebook</a>
+            <a href="https://www.instagram.com/shubham.vishwakarma.official?igsi=MWk2N3d6cjFhanRsbw==" target="_blank" class="btn instagram">Instagram</a>
+            <a href="https://whatsapp.com/channel/0029Va5tPHm3WHTR2G3nIJ3w" target=" _blank" class="btn whatsapp">whatsapp</a>
+        </div>
+    
+    </div>
+
+</body>
+</html>
